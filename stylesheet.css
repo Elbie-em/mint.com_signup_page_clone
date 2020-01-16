@@ -1,5 +1,6 @@
 body{
 	background-color: #ECEEF1;
+	text-align: center;
 }
 nav {
 	position: fixed;
@@ -28,5 +29,18 @@ nav ul li {
 #nav_instructions{
 	font-size: 16px;
 	float: right;
+}
+
+#container{
+	margin-top: 100px;
 
 }
+
+.insite_links{
+	margin: 10px;
+}
+
+.insite_links li{
+	display:inline;
+}
+
