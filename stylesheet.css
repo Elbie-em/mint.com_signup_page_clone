@@ -5,12 +5,14 @@ body{
 }
 a, button{
 	cursor: pointer;
+	text-decoration: none;
+
+}
+a{
+	color: #0077C5;
 }
 
 nav {
-	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100vw;
 	height: 40px;
 }
@@ -31,9 +33,10 @@ nav ul li {
 
  
 }
-#nav_instructions{
+#nav_instructions {
 	font-size: 12px;
 	float: right;
+	
 }
 
 #container{
@@ -57,13 +60,13 @@ nav ul li {
 	display: inline-block;
 	background-color:white ;
 	width:420px;
-	height:708px;
+	height:710px;
 	color: #4C4C4C;
 	border:1px solid #C7C7C7;
 }
 
 #signup_form input{
-	width: 390px;
+	width: 350px;
 	height: 34px;
 	border: 1px solid #C7C7C7;
 	border-radius: 5px;
@@ -79,7 +82,7 @@ nav ul li {
 	margin-top:30px;
 	font-size: 16px ;
 	font-weight:200;
-	margin-left:17px ;
+	margin-left:27px ;
 }
 
 #form_input{
@@ -95,7 +98,7 @@ nav ul li {
 }
 #small_text_b{
 	text-align: left;
-	margin-left: 17px;
+	margin-left: 27px;
 	font-size: xx-small;
 }
 .terms{
@@ -104,9 +107,9 @@ nav ul li {
 }
 
 #submit{
-	width: 403px;
+	width: 364px;
 	height: 55px;
-	border-radius: 5px;
+	border-radius: 8px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:30px;
@@ -114,4 +117,9 @@ nav ul li {
 	font-size: 15px ;
 	background-color: #127AC9;
 	color: white;
+}
+footer {
+	color: #4C4C4C;
+	font-size: small;
+	margin: 50px;
 }
