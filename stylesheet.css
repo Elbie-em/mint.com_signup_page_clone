@@ -1,6 +1,7 @@
 body{
 	background-color: #ECEEF1;
 	text-align: center;
+	font-family:Verdana, sans-serif;
 }
 a, button{
 	cursor: pointer;
@@ -24,7 +25,7 @@ nav ul li {
     float: right;
     width: 120px;
     height: 38px;
-    font-size: 20px; 
+    font-size: 16px; 
     margin: 15px;
     margin-right: 20px;
 
@@ -48,12 +49,36 @@ nav ul li {
 	display:inline;
 }
 
+.help{
+	font-size:12px;
+}
+
 #signup_form{
 	display: inline-block;
 	background-color:white ;
 	width:350px;
-	height:470px;
+	height:669px;
+	color: #4C4C4C;
 	border:1px solid #C7C7C7;
+}
+
+#signup_form input{
+	width: 320px;
+	height: 34px;
+	border: 1px solid #C7C7C7;
+	border-radius: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-size: 15px ;
+}
+
+#signup_form label{
+	text-align:left;
+	margin-top:30px;
+	font-size: 16px ;
+	font-weight:200;
+	margin-left:17px ;
 }
 
 #form_input{
@@ -61,8 +86,31 @@ nav ul li {
 	flex-direction:column;
 }
 
-#recaptcha{
+#small_text_a{
 	background-color:  #ECEEF1;
 	height: 50px;
 	width:350px;
+	font-size: xx-small;
+}
+#small_text_b{
+	text-align: left;
+	margin-left: 17px;
+	font-size: xx-small;
+}
+.terms{
+	font-size: 10px;
+	font-style: italic;
+}
+
+#submit{
+	width: 320px;
+	height: 40px;
+	border-radius: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom: 30px;
+	font-size: 14px ;
+	background-color: #127AC9;
+	color: white;
 }
