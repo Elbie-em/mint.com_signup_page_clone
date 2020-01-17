@@ -30,13 +30,23 @@
 			<h2>Create an Intuit account</h2>
 			<p>One account for everything Intuit, including Mint.</p> 
 			<p>Learn more</p>
-			<label id="email_label" for="email">Email</label>
-			<input type="email" id="email" name="email" placeholder="eg:elbie@example.com" required>
-			<label id="email_label" for="phone_number">Phone (recommended)</label>
-			<input type="number" id="phone_number" name="phone_number" placeholder="eg:+234 000 000 0000" required>
-			<label id="password" for="password">Password</label>
-			<input type="password" id="password" name="password"required>
-			<button id="submit">Create Account</button>
+			<div id="form_input">
+				<label id="email_label" for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="eg:elbie@example.com" required>
+				<label id="email_label" for="phone_number">Phone (recommended)</label>
+				<input type="number" id="phone_number" name="phone_number" placeholder="eg:+234 000 000 0000" required>
+				<label>Standard call, messaging or data rates may apply.</label>
+				<label id="password" for="password">Password</label>
+				<input type="password" id="password" name="password"required>
+				<button id="submit">Create Account</button>	
+				<p>By clicking Create account, you agree to our</p>
+				<p>Terms and have read and acknowledge our Privacy </p>
+				<p>Statement.</p>
+				<div id=recaptcha>
+					<p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+				</div>
+			</div>
+				
 		</form>
 		
 	</section>

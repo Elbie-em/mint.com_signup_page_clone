@@ -48,3 +48,21 @@ nav ul li {
 	display:inline;
 }
 
+#signup_form{
+	display: inline-block;
+	background-color:white ;
+	width:350px;
+	height:470px;
+	border:1px solid #C7C7C7;
+}
+
+#form_input{
+	display:flex;
+	flex-direction:column;
+}
+
+#recaptcha{
+	background-color:  #ECEEF1;
+	height: 50px;
+	width:350px;
+}
