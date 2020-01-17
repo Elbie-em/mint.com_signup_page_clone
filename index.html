@@ -17,14 +17,27 @@
 	</header>
 
 	<section id="container">
-		<img src="assets/site_logo.png">
+		<a href="#"><img src="assets/site_logo.png"></a>
 		<div class="insite_links">
 			<ul>
-				<li><img src="assets/mint_logo.png" class="insite_icon"></li>
-				<li><img src="assets/quickbooks_logo.png" class="insite_icon"></li>
-				<li><img src="assets/turbotax_logo.png" class="insite_icon"></li>
+				<li><a href="#"><img src="assets/mint_logo.png"></a></li>
+				<li><a href="#"><img src="assets/quickbooks_logo.png"></a></li>
+				<li><a href="#"><img src="assets/turbotax_logo.png"></a></li>
 			</ul>
 		</div>
+
+		<form action="submit" id="signup_form">
+			<h2>Create an Intuit account</h2>
+			<p>One account for everything Intuit, including Mint.</p> 
+			<p>Learn more</p>
+			<label id="email_label" for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="eg:elbie@example.com" required>
+			<label id="email_label" for="phone_number">Phone (recommended)</label>
+			<input type="number" id="phone_number" name="phone_number" placeholder="eg:+234 000 000 0000" required>
+			<label id="password" for="password">Password</label>
+			<input type="password" id="password" name="password"required>
+			<button id="submit">Create Account</button>
+		</form>
 		
 	</section>
 
