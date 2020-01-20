@@ -1,14 +1,14 @@
 body {
-	background-color: #ECEEF1;
+	background-color: #eceef1;
 	text-align: center;
-	font-family:Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 }
 a, button {
 	cursor: pointer;
 	text-decoration: none;
 }
 a {
-	color: #0077C5;
+	color: #0077c5;
 }
 nav {
 	width: 100vw;
@@ -40,45 +40,45 @@ nav ul li {
 	margin: 10px;
 }
 .insite_links li {
-	display:inline;
+	display: inline;
 }
 .help {
-	font-size:12px;
+	font-size: 12px;
 }
 .signup_form {
 	display: inline-block;
-	background-color:white ;
-	width:420px;
-	height:710px;
-	color: #4C4C4C;
-	border:1px solid #C7C7C7;
+	background-color: white ;
+	width: 420px;
+	height: 710px;
+	color: #4c4c4c;
+	border: 1px solid #c7c7c7;
 }
 .signup_form input {
 	width: 350px;
 	height: 34px;
-	border: 1px solid #C7C7C7;
+	border: 1px solid #c7c7c7;
 	border-radius: 5px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 	padding: 5px;
 	font-size: 15px ;
 }
 .signup_form label {
-	text-align:left;
-	margin-top:30px;
+	text-align: left;
+	margin-top: 30px;
 	font-size: 16px ;
-	font-weight:200;
-	margin-left:27px ;
+	font-weight: 200;
+	margin-left: 27px ;
 }
 .form_input {
-	display:flex;
-	flex-direction:column;
+	display: flex;
+	flex-direction: column;
 }
 .small_text_a {
-	background-color:  #ECEEF1;
+	background-color: #eceef1;
 	height: 50px;
-	width:420px;
+	width: 420px;
 	font-size: xx-small;
 }
 .small_text_b {
@@ -94,16 +94,16 @@ nav ul li {
 	width: 364px;
 	height: 55px;
 	border-radius: 8px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 15px ;
-	background-color: #127AC9;
+	background-color: #127ac9;
 	color: white;
 }
 footer {
-	color: #4C4C4C;
+	color: #4c4c4c;
 	font-size: small;
 	margin: 50px;
 }
