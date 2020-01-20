@@ -3,20 +3,26 @@ body {
   text-align: center;
   font-family: Verdana, sans-serif;
 }
-a, button {
+
+a, 
+button {
   cursor: pointer;
   text-decoration: none;
 }
+
 a {
   color: #0077c5;
 }
+
 nav {
   width: 100vw;
   height: 40px;
 }
+
 nav ul li {
   display: block;
 }
+
 .nav_signin_button {
   background-color: #0077c5;
   border-radius: 4px;
@@ -25,34 +31,41 @@ nav ul li {
   float: right;
   width: 90px;
   height: 28px;
-  font-size: 15px; 
+  font-size: 15px;
   margin: 14px;
   margin-right: 30px;
 }
+
 .nav_instructions {
   font-size: 12px;
-  float: right;	
+  float: right;
 }
+
 .container {
   margin-top: 65px;
 }
+
 .insite_links {
   margin: 10px;
 }
+
 .insite_links li {
   display: inline;
 }
+
 .help {
   font-size: 12px;
 }
+
 .signup_form {
   display: inline-block;
-  background-color: white ;
+  background-color: white;
   width: 420px;
   height: 710px;
   color: #4c4c4c;
   border: 1px solid #c7c7c7;
 }
+
 .signup_form input {
   width: 350px;
   height: 34px;
@@ -62,34 +75,40 @@ nav ul li {
   margin-right: auto;
   margin-top: 10px;
   padding: 5px;
-  font-size: 15px ;
+  font-size: 15px;
 }
+
 .signup_form label {
   text-align: left;
   margin-top: 30px;
-  font-size: 16px ;
+  font-size: 16px;
   font-weight: 200;
-  margin-left: 27px ;
+  margin-left: 27px;
 }
+
 .form_input {
   display: flex;
   flex-direction: column;
 }
+
 .small_text_a {
   background-color: #eceef1;
   height: 50px;
   width: 420px;
   font-size: xx-small;
 }
+
 .small_text_b {
   text-align: left;
   margin-left: 27px;
   font-size: xx-small;
 }
+
 .terms {
   font-size: 10px;
   font-style: italic;
 }
+
 .submit {
   width: 364px;
   height: 55px;
@@ -98,10 +117,11 @@ nav ul li {
   margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 15px ;
+  font-size: 15px;
   background-color: #127ac9;
   color: white;
 }
+
 footer {
   color: #4c4c4c;
   font-size: small;
