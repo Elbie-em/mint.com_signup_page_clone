@@ -1,6 +1,6 @@
-# HTML5 FORMS PROJECT
+# HTML5 FORMS
 
-## mint.com_signup_page_clone
+## mint.com signup page clone
 
 This is a clone of mint.com Intuit sign_up page without extended functionalities.
 
