@@ -17,20 +17,19 @@ This is a clone of mint.com Intuit sign_up page without extended functionalities
 
 Take note that this page is a clone of the mint.com Intuit sign up page. The buttons on the form are not functional as it's is to portray and enhance our software development skill specifically in HTML5 and CSS.
 
+
 ## Authors
 
-**Ezeokwelume Kossy Steve**
+👤 **Elbie Moonga**
+- GitHub: [@Elbie-Em](https://github.com/Elbie-em)
+- Twitter: [ElbieEm](https://twitter.com/ElbieEm)
+- LinkedIn: [elbie-moonga](https://www.linkedin.com/in/elbiemoonga/)
 
-Ezeokwelume Kosisochukwu Stephen
-[GitHub](https://github.com/KossySteve)
-[Twitter](https://twitter.com/EzeSteve3/)
-[LinkedIn](https://www.linkedin.com/in/steve-ez-b090ba198/)
+👤 **Ezeokwelume Kosisochukwu Stephen**
 
-
-**Elbie Moonga**
-[GitHub](https://github.com/Elbie-em)
-[Twitter](https://twitter.com/ElbieEm)
-[LinkedIn](https://www.linkedin.com/in/elbie-moonga-253bbb12b/)
+- Github: [@KossySteve](https://github.com/KossySteve)
+- Twitter: [@EzeSteve3](https://twitter.com/EzeSteve3/)
+- Linkedin: [Steve Ez](https://www.linkedin.com/in/steve-ez-b090ba198/)
 
 
 ## Contributions
